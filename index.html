@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoppsafe</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Shoppsafe</h1>
+        <p>Search companies by social and ethical issues.</p>
+    </header>
+
+    <!-- Search Section -->
+    <main>
+        <div class="search-container">
+            <input 
+                type="text" 
+                id="searchInput" 
+                placeholder="Search by issue (e.g., Environment, Labor, Sustainability)..."
+            >
+            <button id="searchButton">Search</button>
+        </div>
+
+        <!-- Status Message -->
+        <p id="statusMessage"></p>
+
+        <!-- Results -->
+        <div id="results" class="results-grid"></div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Shoppsafe. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
