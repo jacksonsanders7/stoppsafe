@@ -1,0 +1,135 @@
+/* General Styling */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f6f9;
+    color: #000;
+}
+
+/* Header */
+header {
+    background-color: #ffffff;
+    border-bottom: 4px solid royalblue;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    color: royalblue;
+    font-size: 2.5rem;
+}
+
+header p {
+    margin-top: 5px;
+    color: #333;
+}
+
+/* Main Section */
+main {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+/* Search Bar */
+.search-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+#searchInput {
+    width: 320px;
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid royalblue;
+    border-radius: 6px;
+    outline: none;
+}
+
+#searchInput:focus {
+    border-color: #00008b;
+}
+
+/* Button */
+button {
+    padding: 12px 20px;
+    font-size: 16px;
+    background-color: royalblue;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #00008b;
+}
+
+/* Status Message */
+#statusMessage {
+    font-size: 16px;
+    margin: 10px 0;
+    color: #333;
+}
+
+/* Results Grid */
+.results-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+/* Result Card */
+.result-card {
+    background-color: #ffffff;
+    border-left: 5px solid royalblue;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: left;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.result-card h3 {
+    margin-top: 0;
+    color: royalblue;
+}
+
+.result-card p {
+    margin: 8px 0;
+}
+
+/* Affiliate Badge */
+.badge {
+    display: inline-block;
+    background-color: royalblue;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    margin-top: 8px;
+}
+
+/* Links */
+.result-card a {
+    color: royalblue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.result-card a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: #000;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
